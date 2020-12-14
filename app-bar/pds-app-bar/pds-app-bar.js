@@ -79,11 +79,11 @@
     var nodes = new Map();
     nodes
       .set("atm", ["Atmospheres (ATM)", "https://pds-atmospheres.nmsu.edu/"])
-      .set("geo", ["Geosciences (GEO)", "https://pds-geosciences.wustl.edu/"])
-      .set("img", [
-        "Cartography and Imaging Sciences (IMG)",
+      .set("cis", [
+        "Cartography and Imaging Sciences (CIS)",
         "https://pds-imaging.jpl.nasa.gov/",
       ])
+      .set("geo", ["Geosciences (GEO)", "https://pds-geosciences.wustl.edu/"])
       .set("naif", [
         "Navigational & Ancillary Information (NAIF)",
         "https://naif.jpl.nasa.gov/naif/",
